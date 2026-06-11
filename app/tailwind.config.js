@@ -60,8 +60,8 @@ module.exports = {
         "border-dark": "#173C58",
       },
       fontFamily: {
-        display: ['"Barlow Condensed"', 'sans-serif'],
-        body: ['Inter', 'sans-serif'],
+        display: ['"Aller"', 'sans-serif'],
+        body: ['"Aller"', 'sans-serif'],
       },
       borderRadius: {
         xl: "calc(var(--radius) + 4px)",

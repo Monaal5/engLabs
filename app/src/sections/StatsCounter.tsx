@@ -72,7 +72,7 @@ export default function StatsCounter() {
             >
               0{stat.suffix}
             </span>
-            <span className="font-body font-semibold text-xs uppercase tracking-wider text-silver mt-2">
+            <span className="font-body font-light text-xs uppercase tracking-wider text-silver mt-2">
               {stat.label}
             </span>
           </div>

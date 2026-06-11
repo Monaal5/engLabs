@@ -432,7 +432,7 @@ export default function AboutUs() {
           <div className="max-w-[850px] mx-auto text-center mb-16">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-forest/5 border border-forest/10 mb-4">
               <Target className="w-4 h-4 text-forest" />
-              <span className="font-body text-[10px] font-bold uppercase tracking-wider text-forest">
+              <span className="font-body text-[10px] font-light uppercase tracking-wider text-forest">
                 Strategic Directive
               </span>
             </div>
@@ -441,7 +441,7 @@ export default function AboutUs() {
               Our Vision
             </h3>
             
-            <p className="font-body text-base md:text-lg lg:text-xl text-text-primary leading-relaxed font-medium">
+            <p className="font-body text-base md:text-lg lg:text-xl text-text-primary leading-relaxed font-light">
               "To be the world's most trusted and agile manufacturing partner, transforming complex engineering designs into flawless realities without friction and delay."
             </p>
           </div>

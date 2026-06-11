@@ -82,7 +82,7 @@ export default function Hero() {
   return (
     <section
       ref={sectionRef}
-      className="relative w-full min-h-[100dvh] flex items-end overflow-hidden"
+      className="relative w-full min-h-screen flex items-end pt-24 pb-10 md:pb-16 overflow-hidden"
     >
       {/* Background Image */}
       <div ref={bgRef} className="absolute inset-0 will-change-transform">
@@ -106,20 +106,20 @@ export default function Hero() {
       {/* Content — bottom-left aligned */}
       <div
         ref={contentRef}
-        className="relative z-10 w-full max-w-[1280px] mx-auto px-6 lg:px-8 pb-14 md:pb-20"
+        className="relative z-10 w-full max-w-[1280px] mx-auto px-6 lg:px-8 pb-10 md:pb-16"
       >
         {/* Headline */}
         <h1
           data-hero-anim
           className="font-display font-extrabold uppercase tracking-tight leading-[0.92] mb-6 max-w-[900px]"
         >
-          <span className="block text-white text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
+          <span className="block text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
             ONE STOP
           </span>
           <span className="flex items-baseline gap-3 md:gap-5 flex-wrap">
             <span
               ref={wordRef}
-              className="inline-block text-mint text-6xl sm:text-7xl md:text-8xl lg:text-[6.5rem]"
+              className="inline-block text-mint text-5xl sm:text-6xl md:text-7xl lg:text-[5rem] font-bold"
               style={{
                 minWidth: "3ch",
                 textShadow: "0 0 60px rgba(86,229,185,0.25)",
@@ -128,7 +128,7 @@ export default function Hero() {
               {displayText}
               <span className="inline-block w-[3px] h-[0.7em] bg-mint/70 ml-1 animate-caret-blink align-baseline" />
             </span>
-            <span className="text-white/50 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-wide">
+            <span className="text-white/50 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-wide">
               SOLUTION
             </span>
           </span>

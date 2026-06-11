@@ -1,3 +1,33 @@
+@font-face {
+  font-family: "Aller";
+  src: url("https://db.onlinewebfonts.com/t/28f1802e795440bad4252411b2865b61.woff2") format("woff2"),
+       url("https://db.onlinewebfonts.com/t/28f1802e795440bad4252411b2865b61.woff") format("woff"),
+       url("https://db.onlinewebfonts.com/t/28f1802e795440bad4252411b2865b61.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aller";
+  src: url("https://db.onlinewebfonts.com/t/3bf7501ddcf8338bc9cdcedad10914cb.woff2") format("woff2"),
+       url("https://db.onlinewebfonts.com/t/3bf7501ddcf8338bc9cdcedad10914cb.woff") format("woff"),
+       url("https://db.onlinewebfonts.com/t/3bf7501ddcf8338bc9cdcedad10914cb.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aller";
+  src: url("https://db.onlinewebfonts.com/t/0ddd355012a1ac3b118d3a1cf6813eab.woff2") format("woff2"),
+       url("https://db.onlinewebfonts.com/t/0ddd355012a1ac3b118d3a1cf6813eab.woff") format("woff"),
+       url("https://db.onlinewebfonts.com/t/0ddd355012a1ac3b118d3a1cf6813eab.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -39,18 +69,23 @@
   }
 
   body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Aller', sans-serif;
+    font-weight: 300;
     background-color: #F5F3EE;
     color: #1A1A1A;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+
+  p, span, li, a, div {
+    font-weight: 300;
   }
 }
 
 @layer components {
   .shimmer-hero {
     position: relative;
-    font-family: "Barlow Condensed", sans-serif;
+    font-family: "Aller", sans-serif;
     font-weight: 800;
     font-size: clamp(48px, 6vw, 96px);
     line-height: 0.9;

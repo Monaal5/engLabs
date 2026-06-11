@@ -90,7 +90,7 @@ export default function CaseStudies() {
       <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
         {/* Header */}
         <div ref={headingRef} className="mb-12 md:mb-16">
-          <p className="font-body font-semibold text-xs uppercase tracking-wider text-forest mb-3">
+          <p className="font-body font-light text-xs uppercase tracking-wider text-forest mb-3">
             Portfolio
           </p>
           <h2 className="font-display font-bold text-4xl md:text-6xl text-text-primary tracking-tight">

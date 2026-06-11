@@ -66,7 +66,7 @@ function WireframeModel() {
         </g>
       </g>
       {/* Dimensions */}
-      <g fill="#5A5A5A" fontSize="8" fontFamily="Inter, sans-serif">
+      <g fill="#5A5A5A" fontSize="8" fontFamily="Aller, sans-serif">
         <text x="142" y="55">58mm</text>
         <text x="245" y="120" transform="rotate(90, 245, 120)">42mm</text>
       </g>
@@ -139,7 +139,7 @@ export default function AIAnalysis() {
       <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <p className="font-body font-semibold text-xs uppercase tracking-wider text-forest mb-3">
+          <p className="font-body font-light text-xs uppercase tracking-wider text-forest mb-3">
             Smart Manufacturing
           </p>
           <h2 className="font-display font-bold text-3xl md:text-5xl text-text-primary tracking-tight">

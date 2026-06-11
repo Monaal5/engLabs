@@ -87,7 +87,7 @@ export default function TechnicalInsights() {
         {/* Header */}
         <div className="flex items-end justify-between mb-10">
           <div>
-            <p className="font-body font-semibold text-xs uppercase tracking-wider text-forest mb-3">
+            <p className="font-body font-light text-xs uppercase tracking-wider text-forest mb-3">
               Knowledge Hub
             </p>
             <h2 className="font-display font-bold text-3xl md:text-5xl text-text-primary tracking-tight">
@@ -124,7 +124,7 @@ export default function TechnicalInsights() {
               <span className="inline-block px-2.5 py-1 rounded-full font-body text-[10px] font-semibold uppercase tracking-wider text-off-white bg-forest mb-3">
                 {featured.category}
               </span>
-              <h3 className="font-body font-semibold text-base md:text-lg text-text-primary leading-snug mb-3 group-hover:underline decoration-forest underline-offset-4">
+              <h3 className="font-body font-bold text-base md:text-lg text-text-primary leading-snug mb-3 group-hover:underline decoration-forest underline-offset-4">
                 {featured.title}
               </h3>
               <div className="flex items-center gap-3">
@@ -164,7 +164,7 @@ export default function TechnicalInsights() {
               <span className="inline-block px-2.5 py-1 rounded-full font-body text-[10px] font-semibold uppercase tracking-wider text-forest bg-forest/10 mb-2">
                 {article.category}
               </span>
-              <h3 className="font-body font-semibold text-base md:text-lg text-text-primary leading-snug group-hover:underline decoration-forest underline-offset-4">
+              <h3 className="font-body font-bold text-base md:text-lg text-text-primary leading-snug group-hover:underline decoration-forest underline-offset-4">
                 {article.title}
               </h3>
               <div className="flex items-center gap-3 mt-2">

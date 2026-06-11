@@ -195,7 +195,7 @@ export default function ProcessTimeline() {
       <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16 md:mb-24">
-          <p className="font-body font-bold text-xs uppercase tracking-widest text-[#56E5B9] mb-3">
+          <p className="font-body font-light text-xs uppercase tracking-widest text-[#56E5B9] mb-3">
             Our Process
           </p>
           <h2 className="font-display font-bold text-3xl md:text-5xl lg:text-6xl text-off-white tracking-tight mb-4">
@@ -262,7 +262,7 @@ export default function ProcessTimeline() {
                   </span>
 
                   {/* Title */}
-                  <h3 className="font-body font-semibold text-lg md:text-xl text-off-white mb-3">
+                  <h3 className="font-body font-bold text-lg md:text-xl text-off-white mb-3">
                     {step.title}
                   </h3>
 
